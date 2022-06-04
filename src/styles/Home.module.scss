@@ -1,0 +1,14 @@
+.list_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px;
+  max-width: 1466px;
+  margin: 85px auto;
+  padding: 0 1rem;
+  @media (max-width: 1500px) {
+    margin: 40px auto;
+    gap: 2rem;
+    max-width: 1338px;
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+    width: 242px;
+    background: var(--white);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    .card_header {
+        margin-bottom: .5rem;
+    }
+    .card_body {
+        display: flex;
+        flex-direction: column;
+        .name {
+            font-size: 15px;
+            font-weight: 400;
+            color: #000;
+        }
+        .brand {
+            font-size: 14px;
+            font-weight: 400;
+            color: #000;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .price {
+            font-size: 26px;
+            font-weight: 700;
+            color: #000;
+        }
+    }
+}
